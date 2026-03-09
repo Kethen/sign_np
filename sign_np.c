@@ -969,7 +969,7 @@ int main(int argc, char *argv[])
 
 			// Update offset.
 			iso_offset += wsize;
-			printf("\rWriting ISO blocks: %02I64d%%", i * 100 / iso_blocks);
+			printf("\rWriting ISO blocks: %02d%%", i * 100 / iso_blocks);
 		}
 		printf("\rWriting ISO blocks: 100%%\n\n");
 		

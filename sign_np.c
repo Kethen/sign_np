@@ -4,6 +4,9 @@
 
 #include "sign_np.h"
 
+#define fseeko64 fseeko
+#define ftello64 ftello
+
 u8 *load_file_from_ISO(const char *iso, char *name, int *size)
 {
 	int ret;
